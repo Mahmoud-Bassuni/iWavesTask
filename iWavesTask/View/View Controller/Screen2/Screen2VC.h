@@ -12,8 +12,9 @@
 - (IBAction)kioskModeAction:(id)sender;
 @property (strong, nonatomic) IBOutlet UIView *KioskView;
 @property (strong, nonatomic) IBOutlet UIPickerView *dataPickerProp;
-@property (strong, nonatomic) IBOutlet UILabel *resultLbl;
 
-
+@property (strong, nonatomic) IBOutlet UILabel *resultLblProp;
+@property (strong, nonatomic) IBOutlet UIView *companyDataView;
+- (IBAction)toogleCompanyDataAction:(id)sender;
 @end
 

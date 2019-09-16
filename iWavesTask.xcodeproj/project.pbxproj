@@ -14,6 +14,8 @@
 		19C3F8C7232EB80800409968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3F8C5232EB80800409968 /* LaunchScreen.storyboard */; };
 		19C3F8CA232EB80800409968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8C9232EB80800409968 /* main.m */; };
 		19C3F8D8232EBD5B00409968 /* MainTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8D7232EBD5B00409968 /* MainTVC.m */; };
+		19E66169232FC395002659D9 /* CustomeLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E66168232FC395002659D9 /* CustomeLable.m */; };
+		19E6616C232FC63F002659D9 /* CustomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E6616B232FC63F002659D9 /* CustomeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		19C3F8C9232EB80800409968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19C3F8D6232EBD5B00409968 /* MainTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTVC.h; sourceTree = "<group>"; };
 		19C3F8D7232EBD5B00409968 /* MainTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTVC.m; sourceTree = "<group>"; };
+		19E66167232FC395002659D9 /* CustomeLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomeLable.h; sourceTree = "<group>"; };
+		19E66168232FC395002659D9 /* CustomeLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeLable.m; sourceTree = "<group>"; };
+		19E6616A232FC63F002659D9 /* CustomeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomeButton.h; sourceTree = "<group>"; };
+		19E6616B232FC63F002659D9 /* CustomeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 		19C3F8B9232EB80600409968 /* iWavesTask */ = {
 			isa = PBXGroup;
 			children = (
+				19E6615E232FC1F2002659D9 /* Utilities */,
 				19C3F8D5232EBA6800409968 /* Assets */,
 				19C3F8D2232EB9E500409968 /* View */,
 				19C3F8D1232EB9CD00409968 /* Model */,
@@ -140,6 +147,25 @@
 			path = Screen2;
 			sourceTree = "<group>";
 		};
+		19E6615E232FC1F2002659D9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				19E6615F232FC208002659D9 /* CustomeControls */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		19E6615F232FC208002659D9 /* CustomeControls */ = {
+			isa = PBXGroup;
+			children = (
+				19E66167232FC395002659D9 /* CustomeLable.h */,
+				19E66168232FC395002659D9 /* CustomeLable.m */,
+				19E6616A232FC63F002659D9 /* CustomeButton.h */,
+				19E6616B232FC63F002659D9 /* CustomeButton.m */,
+			);
+			path = CustomeControls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C3F8BF232EB80600409968 /* Screen2VC.m in Sources */,
+				19E66169232FC395002659D9 /* CustomeLable.m in Sources */,
+				19E6616C232FC63F002659D9 /* CustomeButton.m in Sources */,
 				19C3F8CA232EB80800409968 /* main.m in Sources */,
 				19C3F8D8232EBD5B00409968 /* MainTVC.m in Sources */,
 				19C3F8BC232EB80600409968 /* AppDelegate.m in Sources */,
