@@ -16,6 +16,8 @@
 		19C3F8D8232EBD5B00409968 /* MainTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8D7232EBD5B00409968 /* MainTVC.m */; };
 		19E66169232FC395002659D9 /* CustomeLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E66168232FC395002659D9 /* CustomeLable.m */; };
 		19E6616C232FC63F002659D9 /* CustomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E6616B232FC63F002659D9 /* CustomeButton.m */; };
+		19F9551923302AA8002B6966 /* Screen3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F9551823302AA7002B6966 /* Screen3VC.m */; };
+		19F9551D233033E0002B6966 /* DataWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F9551C233033E0002B6966 /* DataWebServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		19E66168232FC395002659D9 /* CustomeLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeLable.m; sourceTree = "<group>"; };
 		19E6616A232FC63F002659D9 /* CustomeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomeButton.h; sourceTree = "<group>"; };
 		19E6616B232FC63F002659D9 /* CustomeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeButton.m; sourceTree = "<group>"; };
+		19F9551723302AA7002B6966 /* Screen3VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen3VC.h; sourceTree = "<group>"; };
+		19F9551823302AA7002B6966 /* Screen3VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen3VC.m; sourceTree = "<group>"; };
+		19F9551B233033E0002B6966 /* DataWebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataWebServices.h; sourceTree = "<group>"; };
+		19F9551C233033E0002B6966 /* DataWebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataWebServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		19C3F8B9232EB80600409968 /* iWavesTask */ = {
 			isa = PBXGroup;
 			children = (
+				19F9551A23303387002B6966 /* Services */,
 				19E6615E232FC1F2002659D9 /* Utilities */,
 				19C3F8D5232EBA6800409968 /* Assets */,
 				19C3F8D2232EB9E500409968 /* View */,
@@ -106,6 +113,7 @@
 		19C3F8D3232EB9F900409968 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				19F9551623302A76002B6966 /* Screen3 */,
 				19CAD248232ECBB9008D2022 /* Screen2 */,
 				19CAD247232ECBAA008D2022 /* Main Screen */,
 			);
@@ -164,6 +172,24 @@
 				19E6616B232FC63F002659D9 /* CustomeButton.m */,
 			);
 			path = CustomeControls;
+			sourceTree = "<group>";
+		};
+		19F9551623302A76002B6966 /* Screen3 */ = {
+			isa = PBXGroup;
+			children = (
+				19F9551723302AA7002B6966 /* Screen3VC.h */,
+				19F9551823302AA7002B6966 /* Screen3VC.m */,
+			);
+			path = Screen3;
+			sourceTree = "<group>";
+		};
+		19F9551A23303387002B6966 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				19F9551B233033E0002B6966 /* DataWebServices.h */,
+				19F9551C233033E0002B6966 /* DataWebServices.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F9551D233033E0002B6966 /* DataWebServices.m in Sources */,
 				19C3F8BF232EB80600409968 /* Screen2VC.m in Sources */,
+				19F9551923302AA8002B6966 /* Screen3VC.m in Sources */,
 				19E66169232FC395002659D9 /* CustomeLable.m in Sources */,
 				19E6616C232FC63F002659D9 /* CustomeButton.m in Sources */,
 				19C3F8CA232EB80800409968 /* main.m in Sources */,
