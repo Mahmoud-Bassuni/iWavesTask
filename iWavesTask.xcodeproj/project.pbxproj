@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		19C3F8BC232EB80600409968 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8BB232EB80600409968 /* AppDelegate.m */; };
-		19C3F8BF232EB80600409968 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8BE232EB80600409968 /* ViewController.m */; };
+		19C3F8BF232EB80600409968 /* Screen2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8BE232EB80600409968 /* Screen2VC.m */; };
 		19C3F8C2232EB80600409968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3F8C0232EB80600409968 /* Main.storyboard */; };
 		19C3F8C4232EB80800409968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C3F8C3232EB80800409968 /* Assets.xcassets */; };
 		19C3F8C7232EB80800409968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3F8C5232EB80800409968 /* LaunchScreen.storyboard */; };
 		19C3F8CA232EB80800409968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8C9232EB80800409968 /* main.m */; };
+		19C3F8D8232EBD5B00409968 /* MainTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F8D7232EBD5B00409968 /* MainTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19C3F8B7232EB80600409968 /* iWavesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWavesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C3F8BA232EB80600409968 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19C3F8BB232EB80600409968 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19C3F8BD232EB80600409968 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19C3F8BE232EB80600409968 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19C3F8BD232EB80600409968 /* Screen2VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen2VC.h; sourceTree = "<group>"; };
+		19C3F8BE232EB80600409968 /* Screen2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen2VC.m; sourceTree = "<group>"; };
 		19C3F8C1232EB80600409968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19C3F8C3232EB80800409968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C3F8C6232EB80800409968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19C3F8C8232EB80800409968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19C3F8C9232EB80800409968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19C3F8D6232EBD5B00409968 /* MainTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTVC.h; sourceTree = "<group>"; };
+		19C3F8D7232EBD5B00409968 /* MainTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +61,83 @@
 		19C3F8B9232EB80600409968 /* iWavesTask */ = {
 			isa = PBXGroup;
 			children = (
-				19C3F8BA232EB80600409968 /* AppDelegate.h */,
-				19C3F8BB232EB80600409968 /* AppDelegate.m */,
-				19C3F8BD232EB80600409968 /* ViewController.h */,
-				19C3F8BE232EB80600409968 /* ViewController.m */,
-				19C3F8C0232EB80600409968 /* Main.storyboard */,
-				19C3F8C3232EB80800409968 /* Assets.xcassets */,
-				19C3F8C5232EB80800409968 /* LaunchScreen.storyboard */,
+				19C3F8D5232EBA6800409968 /* Assets */,
+				19C3F8D2232EB9E500409968 /* View */,
+				19C3F8D1232EB9CD00409968 /* Model */,
+				19C3F8D0232EB9B500409968 /* Application */,
 				19C3F8C8232EB80800409968 /* Info.plist */,
 				19C3F8C9232EB80800409968 /* main.m */,
 			);
 			path = iWavesTask;
+			sourceTree = "<group>";
+		};
+		19C3F8D0232EB9B500409968 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F8BA232EB80600409968 /* AppDelegate.h */,
+				19C3F8BB232EB80600409968 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		19C3F8D1232EB9CD00409968 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19C3F8D2232EB9E500409968 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F8D4232EBA0300409968 /* Storyboard */,
+				19C3F8D3232EB9F900409968 /* View Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19C3F8D3232EB9F900409968 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19CAD248232ECBB9008D2022 /* Screen2 */,
+				19CAD247232ECBAA008D2022 /* Main Screen */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		19C3F8D4232EBA0300409968 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F8C5232EB80800409968 /* LaunchScreen.storyboard */,
+				19C3F8C0232EB80600409968 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		19C3F8D5232EBA6800409968 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F8C3232EB80800409968 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		19CAD247232ECBAA008D2022 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F8D6232EBD5B00409968 /* MainTVC.h */,
+				19C3F8D7232EBD5B00409968 /* MainTVC.m */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		19CAD248232ECBB9008D2022 /* Screen2 */ = {
+			isa = PBXGroup;
+			children = (
+				19C3F8BE232EB80600409968 /* Screen2VC.m */,
+				19C3F8BD232EB80600409968 /* Screen2VC.h */,
+			);
+			path = Screen2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C3F8BF232EB80600409968 /* ViewController.m in Sources */,
+				19C3F8BF232EB80600409968 /* Screen2VC.m in Sources */,
 				19C3F8CA232EB80800409968 /* main.m in Sources */,
+				19C3F8D8232EBD5B00409968 /* MainTVC.m in Sources */,
 				19C3F8BC232EB80600409968 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3SSZK62LX;
 				INFOPLIST_FILE = iWavesTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3SSZK62LX;
 				INFOPLIST_FILE = iWavesTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
